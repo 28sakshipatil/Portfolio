@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Portfolio</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#timeline" class="nav-link">Timeline</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <button class="theme-toggle" id="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Sakshi Patil</span>
+                </h1>
+                <p class="hero-subtitle">Full Stack Developer & Data Analyst </p>
+                <p class="hero-description">
+                    A passionate Software Engineer, Full-Stack Developer, and AI enthusiast based in Mumbai. With over two years of hands-on experience building scalable web applications and intelligent systems, I thrive at the intersection of creativity and code. Whether it's crafting seamless user experiences or architecting robust backend solutions, I bring precision, performance, and purpose to every line I write. My mission? To build tech that empowers, educates, and evolves with the world.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image">
+                        <img src="bg.png" alt="Profile Picture">
+                        <div class="profile-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                       With a strong foundation in full-stack development and a growing passion for AI, I’ve built impactful projects and gained hands-on experience through internships and open-source contributions. I enjoy turning ideas into scalable solutions and collaborating with teams that value innovation and purpose.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                       <div class="stat">
+                            <h3>10+</h3>
+                            <p>Open Source Contribution</p>
+                        </div>
+                    </div>
+                     
+                </div>
+                <div class="about-hobbies">
+                    <h3>When I'm not coding...</h3>
+                    <div class="hobbies-grid">
+                        <!-- <div class="hobby-item">
+                            <i class="fas fa-camera"></i>
+                            <span>Photography</span>
+                        </div> -->
+                        <div class="hobby-item">
+                            <i class="fas fa-guitar"></i>
+                            <span>Instrument-Ukulele</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-gamepad"></i>
+                            <span>Gaming</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-book"></i>
+                            <span>Reading</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-plane"></i>
+                            <span>Traveling</span>
+                        </div>
+                        <!-- <div class="hobby-item">
+                            <i class="fas fa-dumbbell"></i>
+                            <span>Fitness</span>
+                        </div> -->
+                    </div>
+                </div>
+
+                
+            </div>
+        <!-- Education Section - Add this after the about-hobbies div and before closing about-content div -->
+<div class="about-education">
+    <h3>Education</h3>
+    <div class="education-grid">
+        <div class="education-item">
+            <div class="education-icon">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="education-content">
+                <h4>Bachelor of Engineering</h4>
+                <p class="education-field">Information Technology</p>
+                <p class="education-institution">St. Francis Institute of Tecnology, Mumbai</p>
+                <p class="education-year">2022 - 2026</p>
+                <p class="education-grade">CGPA: 8.07/10</p>
+            </div>
+        </div>
+        
+        <div class="education-item">
+            <div class="education-icon">
+                <i class="fas fa-school"></i>
+            </div>
+            <div class="education-content">
+                <h4>Higher Secondary Certificate (12th)</h4>
+                <p class="education-field">Science (PCMB)</p>
+                <p class="education-institution">St. Joseph's Convent Sr. Sec. School</p>
+                <p class="education-year">2020 - 2022</p>
+                <p class="education-grade">Percentage: 76.8%</p>
+            </div>
+        </div>
+        
+        <div class="education-item">
+            <div class="education-icon">
+                <i class="fas fa-book"></i>
+            </div>
+            <div class="education-content">
+                <h4>Secondary School Certificate (10th)</h4>
+                <p class="education-field">CBSE Board</p>
+                <p class="education-institution">St. Joseph's Convent Sr. Sec. School</p>
+                <p class="education-year">2010 - 2020</p>
+                <p class="education-grade">Percentage: 92.8%</p>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+        
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tech Stack</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-vue"></i>
+                            <span>Vue.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>Express.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-aws"></i>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-figma"></i>
+                            <span>Figma</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code-branch"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-terminal"></i>
+                            <span>Terminal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- <img src="https://via.placeholder.com/400x250/8B5CF6/FFFFFF?text=E-Commerce+App" alt="Project 1"> -->
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/28sakshipatil/DigiLift_Career" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Digilift Career</h3>
+                        <p> • Developed a career guidance system using Python NLP libraries and machine learning algorithms 
+<br>• Integrated DigiLocker APIs for document verification and implemented automated report generation features</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">Javascript</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Machine Learning Algo</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">API Integration</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- <img src="https://via.placeholder.com/400x250/EC4899/FFFFFF?text=Task+Manager" alt="Project 2"> -->
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/28sakshipatil/Stock-Broker" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Stock Trading Web app</h3>
+                        <p>• Developed a full-stack web app, enabling users to simulate stock trading with real-time data, interactive charts, and portfolio 
+management. Built a scalable architecture suitable for fintech applications. 
+<br>• Demonstrated understanding of trading workflows and real-time data handling.  </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Tailwind</span>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- <img src="https://via.placeholder.com/400x250/F59E0B/FFFFFF?text=Weather+App" alt="Project 3"> -->
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://28sakshipatil.github.io/Nivesh_Gyan/" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/28sakshipatil/Nivesh_Gyan" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>FinTeach</h3>
+                        <p>Developed an investor education platform that teaches stock market basics and simulated trading, with vernacular language 
+support so non-English speakers can also make informed financial decisions. </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Javascript</span>
+                            <span class="tech-tag">Gen AI</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                  <div class="project-card">
+                    <div class="project-image">
+                        <!-- <img src="https://via.placeholder.com/400x250/F59E0B/FFFFFF?text=Weather+App" alt="Project 3"> -->
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/28sakshipatil/Veda-GPT" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Veda-GPT webapp </h3>
+                        <p>• Built a full-stack web application inspired by OpenAI's GPT, designed to simulate intelligent, human-like conversations 
+through natural language processing. 
+<br>• Demonstrated expertise in NLP, full-stack development, and conversational AI. Showcased ability to replicate core GPT 
+functionalities in a scalable web environment.  </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Open AI API</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">MongoDB</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Open SOurce Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Open Source Contribution</h2>
+                <p class="section-subtitle">Some of my recent contributions</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- <img src="https://via.placeholder.com/400x250/8B5CF6/FFFFFF?text=E-Commerce+App" alt="Project 1"> -->
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://agri-tech-lime.vercel.app/" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/omroy07/AgriTech/pull/45#event-18832366051" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AgriTech</h3>
+                        <p> Added a NEW FEATURE crop planning </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <!-- <span class="tech-tag">Javascript</span> -->
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Python</span>
+                            <!-- <span class="tech-tag">Machine Learning Algo</span> -->
+                            <!-- <span class="tech-tag">CSS</span> -->
+                            <span class="tech-tag">GEN AI</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- <img src="https://via.placeholder.com/400x250/EC4899/FFFFFF?text=Task+Manager" alt="Project 2"> -->
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/Richajaishwal0/Trip_assistant/pull/71#event-19051422318" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Trip Assistant</h3>
+                        <p>Currency converter and tipping guide  </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Tailwind</span>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- <img src="https://via.placeholder.com/400x250/F59E0B/FFFFFF?text=Weather+App" alt="Project 3"> -->
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://animate-it-now.netlify.app/" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/itsAnimation/AnimateItNow/pull/118#event-18759462770" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AnimateNow</h3>
+                        <p>Added 4 variants of login form, features, and hero section  </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Javascript</span>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+                 <div class="project-card">
+                    <div class="project-image">
+                        <!-- <img src="https://via.placeholder.com/400x250/F59E0B/FFFFFF?text=Weather+App" alt="Project 3"> -->
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/UTSAVS26/PyVerse/issues/1781#event-19441464091" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Pyverse</h3>
+                        <p>GEN AI-based Crop Planner </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Django</span>
+                            <!-- <span class="tech-tag">Javascript</span> -->
+                            <span class="tech-tag">Gen AI</span> 
+                            
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Journey</h2>
+                <p class="section-subtitle">Timeline of achievements & experiences</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">June 2025</div>
+                        <h3>Data Analytics Virtual Intern</h3>
+                        <h4> Deloitte Australia</h4>
+                        <p>• Analyzed 500+ data entries using Excel to identify fraud patterns and business insights 
+<br>• Created interactive Tableau dashboards with multiple KPIs for forensic analysis visualization </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Work</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">March 2025 -April 2025</div>
+                        <h3>Software Development Engineer Intern </h3>
+                        <h4>BlueStock</h4>
+                        <p>• Developed 10+ responsive React components with optimized performance and cross-browser compatibility 
+<br>• Built REST APIs using Node.js and Express.js with MongoDB integration and error handling 
+<br>• Collaborated in Agile sprints, implemented Git workflows and code review processes </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Work</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024</div>
+                        <h3>Participated in Hackathon</h3>
+                        <h4>Colloquim</h4>
+                        <p>Developed responsive web applications using React and collaborated with design team to create user-friendly interfaces.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Hackathon</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023</div>
+                        <h3>Hackathon Finalist</h3>
+                        <h4>ITS-A-HACK</h4>
+                        <p>Built a social impact application in 48 hours that helps to manage expenses.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Achievement</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022</div>
+                        <h3>Started Web Development Journey</h3>
+                        <h4>Self-taught</h4>
+                        <p>Began learning HTML, CSS, and JavaScript. Built my first website and fell in love with coding.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Education</span>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's create something amazing together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>28sakshipatil@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 8689863655</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Mumbai, India</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/28sakshipatil" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sakshi-patil-1272b226b/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://leetcode.com/u/sakshipatil_28/" class="social-link"><i class="fa-solid fa-code"></i></a>
+                        <!-- <a href="#" class="social-link"><i class="fab fa-instagram"><i class="fa-solid fa-code"></i></i></a> -->
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Sakshi. All rights reserved. Made with Me🙋🏻‍♀️</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
